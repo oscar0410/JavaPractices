@@ -33,7 +33,7 @@ public class StuLinkedList {
         System.out.println();
     }
 
-    public void insert(int data, String naems, int np){
+    public void add(int data, String naems, int np){
         Node newNode = new Node(data,naems,np);
         if(this.isEmpty()){
             firstNode = newNode;

@@ -18,7 +18,7 @@ public class Main {
         for (int i = 0; i < 12; i++) {
             data[i][0] = i+1;
             data[i][1] = (Math.abs(rand.nextInt(50)))+50;
-            list.insert(data[i][0], name[i],data[i][1]);
+            list.add(data[i][0], name[i],data[i][1]);
         }
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 4; j++) {
